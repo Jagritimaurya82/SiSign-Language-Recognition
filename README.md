@@ -1,1 +1,1 @@
-# SiSign-Language-Recognition
+# Sign-Language-Recognition
