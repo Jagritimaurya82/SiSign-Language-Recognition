@@ -1,7 +1,6 @@
-# Sign-Language-Recognition
-Here is a short write-up summarizing my approach, results, and challenges:  
-
+ 
 # **Sign Language Recognition using PyTorch**  
+Here is a short write-up summarizing my approach, results, and challenges:  
 
 ## **Approach**  
 The goal of this project was to develop a real-time sign language recognition system using deep learning. The system classifies six different sign language gestures (`Hello`, `I love you`, `No`, `Please`, `Thanks`, and `Yes`) and converts predictions into text and speech output.  
