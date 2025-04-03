@@ -16,7 +16,7 @@ The goal of this project was to develop a real-time sign language recognition sy
 
 3. **Training & Optimization**:  
    - Used **CrossEntropyLoss** as the loss function and **Adam** optimizer.  
-   - Trained for **50 epochs** with a batch size of **32**.  
+   - Trained for **35 epochs** with a batch size of **32**.  
    - Applied **data augmentation** (random horizontal flipping, rotation, and brightness adjustments) to make the model more robust.  
 
 4. **Inference & Real-Time Prediction**:  
@@ -25,7 +25,7 @@ The goal of this project was to develop a real-time sign language recognition sy
    - Integrated **text-to-speech (TTS)** using `pyttsx3` to convert predictions into speech output.  
 
 ## **Results**  
-- The model achieved **~70% accuracy** on the test dataset.  
+- The model achieved **good accuracy** on the test dataset.  
 - The real-time recognition worked well for clear hand gestures but struggled with lighting variations and certain hand positions.  
 
 ## **Challenges Faced**  
@@ -37,9 +37,4 @@ The goal of this project was to develop a real-time sign language recognition sy
 3. **Model Performance**:  
    - The model sometimes misclassified gestures due to variations in hand positioning and lighting.  
    - Using a larger dataset and a more complex model (e.g., ResNet-50) could improve accuracy.  
-
-## **For Improvements**  
-- Collect and annotate a **larger, more diverse dataset**.  
-- Use a **more advanced model** like EfficientNet for better accuracy.  
-- Implement **gesture tracking with sequence models (LSTMs or Transformers)** for continuous sign recognition.  
  
